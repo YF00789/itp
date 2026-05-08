@@ -27,7 +27,7 @@ The project uses a modular architecture, splitting the core mathematical logic a
 |  operations.py  |            |    utils.py     |   | .csv file |
 | (Math/Core OOP) |            | (RegEx, Lambdas)|   | .json file|
 +-----------------+            +-----------------+   +-----------+
-
+```
 ---
 
 ## 2. Data Definitions
