@@ -5,7 +5,7 @@ class StorageManager:
     def init(self, filename="calc_history"):
         self.json_file = f"{filename}.json"
         self.csv_file = f"{filename}.csv"
-        self.unique_operators = set()  # Sets collection
+        self.unique_operators = set()
 
     def save_state(self, history: list):
         with open(self.json_file, 'w') as f:
